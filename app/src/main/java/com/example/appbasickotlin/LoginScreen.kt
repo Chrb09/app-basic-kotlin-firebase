@@ -34,7 +34,7 @@ fun LoginScreen(onLogin: (String) -> Unit, onRegisterClick: () -> Unit) {
     val gradient = Brush.verticalGradient(
         colors = listOf(
             MaterialTheme.colorScheme.primary,
-            MaterialTheme.colorScheme.primaryContainer
+            MaterialTheme.colorScheme.tertiary
         )
     )
 
@@ -126,7 +126,7 @@ fun LoginScreen(onLogin: (String) -> Unit, onRegisterClick: () -> Unit) {
 
                 TextButton(onClick = { onRegisterClick() }) {
                     Text(
-                        "Esqueceu a senha?",
+                        "Cadastrar-se",
                         color = MaterialTheme.colorScheme.primary,
                         fontSize = 14.sp
                     )

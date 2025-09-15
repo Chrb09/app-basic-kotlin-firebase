@@ -30,7 +30,7 @@ fun HomeScreen(
     val gradient = Brush.verticalGradient(
         colors = listOf(
             MaterialTheme.colorScheme.primary,
-            MaterialTheme.colorScheme.primaryContainer
+            MaterialTheme.colorScheme.tertiary
         )
     )
 
